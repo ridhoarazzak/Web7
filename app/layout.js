@@ -1,11 +1,12 @@
+// app/layout.js
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import FloatingBeans from "../components/FloatingBeans"; // <-- 1. Impor komponen
 
-// Konfigurasi font Poppins
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "600", "700", "800"], // Mengambil beberapa ketebalan font
+  weight: ["400", "600", "700", "800"],
 });
 
 export const metadata = {
@@ -16,11 +17,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* Menerapkan font Poppins dan warna latar belakang dasar */}
       <body className={`${poppins.className} bg-brand-cream text-brand-dark`}>
-        <Navbar />
-        <main>{children}</main>
+        <FloatingBeans /> {/* <-- 2. Letakkan di sini */}
+        <div className="relative z-10"> {/* Bungkus konten agar berada di atas animasi */}
+          <Navbar />
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );
-}
+  }
