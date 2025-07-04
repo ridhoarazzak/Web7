@@ -1,0 +1,22 @@
+// components/CoffeeBeanIcon.js
+export default function CoffeeBeanIcon({ className }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 128 128"
+      className={className}
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path
+        fill="#2E2323" // Warna brand-dark kita
+        d="M109.5 52.8c-5.3-20.5-22.3-36.4-43.8-42C39.2 4.1 16.1 13.6 6.5 32.2c-9.6 18.6-6.6 41.1 7.6 56.7 7.2 7.9 16.5 13.1 26.4 15.5 20.2 4.8 41.4.3 58-12.7 8.3-6.5 14.6-15.3 18.2-25.5 3.6-10.2 4.2-21.3 2.8-32.2l-9.8.1zM64 16c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32z"
+      ></path>
+      <path
+        fill="#F5F5DC" // Warna brand-cream kita
+        d="M64 24c-13.3 0-24 10.7-24 24s10.7 24 24 24c1.8 0 3.5-.2 5.2-.6-2.9-2.6-4.8-6.3-5.1-10.4-.6-8.2 5.8-15.3 13.9-15.3.8 0 1.6.1 2.3.2-3.8-8.5-12.1-14.3-21.5-14.3z"
+        opacity="0.1"
+      ></path>
+    </svg>
+  );
+}
