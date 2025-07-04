@@ -1,9 +1,13 @@
 // app/layout.js
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google"; // Ganti Inter menjadi Poppins
 import "./globals.css";
-import Navbar from "../components/Navbar"; // Impor Navbar
+import Navbar from "../components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+// Konfigurasi Poppins
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "800"], // Ambil beberapa ketebalan font
+});
 
 export const metadata = {
   title: "Penginapan Asri - Terbaik di Kota Anda",
@@ -13,10 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar /> {/* Tambahkan Navbar di sini */}
+      {/* Terapkan class font ke body */}
+      <body className={`${poppins.className} bg-brand-cream`}>
+        <Navbar />
         <main>{children}</main>
-        {/* Di sini bisa ditambahkan Footer nantinya */}
       </body>
     </html>
   );
