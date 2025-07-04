@@ -6,7 +6,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'brand-green': '#4A7729', // Hijau daun kopi yang pekat
+        'brand-dark': '#2E2323',  // Coklat gelap seperti biji kopi
+        'brand-cream': '#F5F5DC', // Warna krem/beige yang lembut
+        'brand-light-green': '#89A881', // Hijau muda untuk aksen
+      },
+    },
   },
   plugins: [],
 };
