@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="bg-white/80 shadow-md w-full backdrop-blur-sm sticky top-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="font-extrabold text-2xl text-brand-green">
-          Penginapan Asri
+          Penginapan Shelter
         </Link>
         <div className="space-x-6">
           <Link href="/" className="text-brand-dark hover:text-brand-green font-semibold">Beranda</Link>
