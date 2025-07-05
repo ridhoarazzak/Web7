@@ -40,7 +40,7 @@ export default function ContactPage() {
         {/* Kolom Peta */}
         <div className="rounded-lg overflow-hidden shadow-lg">
            <iframe
-              src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.27071747876388!2d101.22630340568084!3d-1.5642522052769159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf339aedd9eb3%3A0x9a99d9b22dced99e!2sShelter%20Penginapan%20di%20Solok%20Selatan!5e0!3m2!1sid!2sid!4v1751675931826!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+              src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.27071747876388!2d101.22630340568084!3d-1.5642522052769159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf339aedd9eb3%3A0x9a99d9b22dced99e!2sShelter%20Penginapan%20di%20Solok%20Selatan!5e0!3m2!1sid!2sid!4v1751675931826!5m2!1sid!2sid"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '400px' }}
