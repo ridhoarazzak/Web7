@@ -13,8 +13,8 @@ const poppins = Poppins({
 
 // Metadata untuk SEO dan judul tab di browser
 export const metadata = {
-  title: "Penginapan Asri - Tema Green Coffee",
-  description: "Pesan kamar di Penginapan Asri dengan mudah dan elegan.",
+  title: "Penginapan Shelter - Tema Green Coffee",
+  description: "Pesan kamar di Penginapan Shelter dengan mudah dan elegan.",
 };
 
 // Ini adalah komponen Layout utama yang membungkus semua halaman
