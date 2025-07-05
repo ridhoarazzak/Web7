@@ -17,7 +17,7 @@ export default function ContactPage() {
               <MapPin className="h-8 w-8 text-brand-green flex-shrink-0" />
               <div>
                 <h3 className="font-bold text-brand-dark">Alamat</h3>
-                <p>Jl. Khatib Sulaiman No. 1, Padang, Sumatra Barat, Indonesia</p>
+                <p>Lubuk Gadang Sel., Kec. Sangir, Kabupaten Solok Selatan, Sumatera Barat 27778/<p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
