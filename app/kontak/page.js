@@ -40,7 +40,7 @@ export default function ContactPage() {
         {/* Kolom Peta */}
         <div className="rounded-lg overflow-hidden shadow-lg">
            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.283787711406!2d100.35339031535497!3d-0.920290135601558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8e3943a53a5%3A0x2a17f6b55cb639d2!2sJl.%20Khatib%20Sulaiman%2C%20Padang%20Utara%2C%20Kota%20Padang%2C%20Sumatera%20Barat!5e0!3m2!1sen!2sid!4v1628153315147!5m2!1sen!2sid"
+              src="https://maps.app.goo.gl/3fH6PbEAoMRANJbH6"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '400px' }}
