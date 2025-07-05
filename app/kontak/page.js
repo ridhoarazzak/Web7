@@ -17,7 +17,7 @@ export default function ContactPage() {
               <MapPin className="h-8 w-8 text-brand-green flex-shrink-0" />
               <div>
                 <h3 className="font-bold text-brand-dark">Alamat</h3>
-                <p>Lubuk Gadang Sel., Kec. Sangir, Kabupaten Solok Selatan, Sumatera Barat 27778/<p>
+                <p>Lubuk Gadang Sel., Kec. Sangir, Kabupaten Solok Selatan, Sumatera Barat 27778</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -31,7 +31,7 @@ export default function ContactPage() {
               <Mail className="h-8 w-8 text-brand-green flex-shrink-0" />
               <div>
                 <h3 className="font-bold text-brand-dark">Email</h3>
-                <p>info@penginapanasri.com</p>
+                <p>info@penginapanshelter.com</p>
               </div>
             </div>
           </div>
